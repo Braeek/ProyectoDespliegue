@@ -11,4 +11,4 @@
 ### Mas adelante instalaremos el mysql server con apt install mysql-server
 #### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/2%20-%20ActivarModulos/Captura%20de%20pantalla%20(75).png)
 
-####Finalmente, tras comprobar que todo esta correcto, cerramos el terminal
+#### Finalmente, tras comprobar que todo esta correcto, cerramos el terminal
