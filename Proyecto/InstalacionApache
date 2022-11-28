@@ -2,8 +2,6 @@
 ## Instalacion
 ### Primero que nada ponemos el comando sudo su para asi darnos permiso y no tener que hacerlo mas veces en el resto de comandos
 ### Tras esto hacemos un apt update
-
-
 #### [Añadir Puerto](https://github.com/Braeek/Prueba-despliegue/blob/main/Tema1/a%C3%B1adirUnPuerto)
 
 ### Ejercicio 2 - Script para introducir un dominio y una ip
