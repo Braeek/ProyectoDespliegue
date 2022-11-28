@@ -4,8 +4,6 @@
 ### Tras esto hacemos un apt update
 #### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/1%20-%20InstalacionApache/Captura%20de%20pantalla%20(68).png)
 
-### Ejercicio 2 - Script para introducir un dominio y una ip
-#### [Añadir Host e IP](https://github.com/Braeek/Prueba-despliegue/blob/main/Tema1/a%C3%B1adirUnHost)
+### Finalmente hacemos un apt install apache2
+#### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/1%20-%20InstalacionApache/Captura%20de%20pantalla%20(69).png)
 
-### Ejercicio 3 - Script para crear una pagina web
-#### [Crear Pagina Web](https://github.com/Braeek/Prueba-despliegue/blob/main/Tema1/crearUnaWeb)
