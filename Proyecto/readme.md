@@ -7,7 +7,7 @@
 #### [Activar](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/ActivarModulos.md)
 
 ### Parte 3 - Instala y configura wordpress
-#### [Instala y configura]()
+#### [Wordpress](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/InstalarWordpress.md)
 
 ### Parte 4 - Activar el módulo “wsgi”
 #### [wsgi]()
