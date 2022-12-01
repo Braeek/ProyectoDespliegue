@@ -10,7 +10,7 @@
 #### [Wordpress](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/InstalarWordpress.md)
 
 ### Parte 4 - Activar el módulo “wsgi”
-#### [wsgi](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/pythonWsgi.md)
+#### [Wsgi](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/pythonWsgi.md)
 
 ### Parte 5 - Crea y despliega una pequeña aplicación python
 #### [Python](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/pythonWsgi.md)
@@ -19,4 +19,4 @@
 #### [Proteccion](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/protegerAcceso.md)
 
 ### Parte 7 - Instalar awstat
-#### [awstat](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/instalarAwstat.md)
+#### [Awstat](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/instalarAwstat.md)
