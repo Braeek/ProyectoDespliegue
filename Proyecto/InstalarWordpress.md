@@ -38,10 +38,3 @@
 ### Luego creamos una conexion con:
 #### x
 #### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/3%20-%20Instalar%20wordpress/Captura%20de%20pantalla%20(107).png)
-
-
-### Mas adelante instalaremos el mysql server con:
-#### x
-#### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/3%20-%20Instalar%20wordpress/Captura%20de%20pantalla%20(96).png)
-
-#### Finalmente, tras comprobar que todo esta correcto, cerramos el terminal
