@@ -18,5 +18,5 @@
 ### Parte 6 - Adicionalmente protegeremos el acceso a la aplicación python
 #### [Proteccion](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/protegerAcceso.md)
 
-### Parte 7 - Script para introducir un dominio y una ip
-#### [Añadir Host e IP]()
+### Parte 7 - Instalar awstat
+#### [awstat](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/instalarAwstat.md)
