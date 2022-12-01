@@ -4,4 +4,4 @@
 ## Tema 1 - PROYECTO
 | Command | Primer Proyecto |
 | --- | --- |
-| Apartados - [Enlace](https://github.com/Braeek/Prueba-despliegue/tree/main/Tema1) | ... |
+| Apartados - [Enlace](https://github.com/Braeek/ProyectoDespliegue/tree/main/Proyecto#readme) | ... |
