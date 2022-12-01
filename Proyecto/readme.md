@@ -16,7 +16,7 @@
 #### [Python](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/pythonWsgi.md)
 
 ### Parte 6 - Adicionalmente protegeremos el acceso a la aplicación python
-#### [Proteccion]()
+#### [Proteccion](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/protegerAcceso.md)
 
 ### Parte 7 - Script para introducir un dominio y una ip
 #### [Añadir Host e IP]()
