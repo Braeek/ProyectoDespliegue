@@ -7,5 +7,5 @@
 ### Finalmente hacemos un apt install apache2
 #### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/1%20-%20InstalacionApache/Captura%20de%20pantalla%20(93).png)
 
-###Adicionalmente, podemos comprobar si todo esta correcto
+### Adicionalmente, podemos comprobar si todo esta correcto
 #### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/1%20-%20InstalacionApache/Captura%20de%20pantalla%20(94).png)
