@@ -1,5 +1,5 @@
 # Despliegue de aplicaciones web
-## Scripts
+## Proyecto
 ### Parte 1 - Instalación del servidor web apache
 #### [Instalacion](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/InstalacionApache.md)
 
