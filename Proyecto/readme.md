@@ -20,3 +20,6 @@
 
 ### Parte 7 - Instalar awstat
 #### [Awstat](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/instalarAwstat.md)
+
+### Parte 8 - Instalar un segundo servidor
+#### [2 servidor](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/instalarAwstat.md)
