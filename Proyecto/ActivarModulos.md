@@ -3,15 +3,15 @@
 ### Tras haber realizado el primer paso de las instalaciones, procederemos a activar los modulos php y asi acceder a myswl
 ### Introducimos:
 #### apt install php
-#### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/2%20-%20ActivarModulos/Captura%20de%20pantalla%20(71).png)
+#### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/2%20-%20ActivarModulos/Captura%20de%20pantalla%20(71).png)
 
 ### Luego creamos una conexion con:
 #### apt-get install libapache2-mod-php
-#### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/2%20-%20ActivarModulos/Captura%20de%20pantalla%20(74).png)
+#### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/2%20-%20ActivarModulos/Captura%20de%20pantalla%20(74).png)
 
 
 ### Mas adelante instalaremos el mysql server con:
 #### apt install mysql-server
-#### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/2%20-%20ActivarModulos/Captura%20de%20pantalla%20(75).png)
+#### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/2%20-%20ActivarModulos/Captura%20de%20pantalla%20(75).png)
 
 #### Finalmente, tras comprobar que todo esta correcto, cerramos el terminal
