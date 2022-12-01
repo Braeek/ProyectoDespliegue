@@ -4,7 +4,7 @@
 #### [Instalacion](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/InstalacionApache.md)
 
 ### Parte 2 - Activar los módulos
-#### [Activar]()
+#### [Activar](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/ActivarModulos.md)
 
 ### Parte 3 - Instala y configura wordpress
 #### [Instala y configura]()
