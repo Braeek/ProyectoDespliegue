@@ -1,21 +1,23 @@
 # Despliegue de aplicaciones web
-## Modulos
-### Tras haber realizado el primer paso de las instalaciones, procederemos a activar los modulos php y asi acceder a myswl
-### Introducimos:
-#### x
+## WSGI
+### Ahora activaremos el módulo “wsgi”
+### Primero hacemos la descarga:
+#### sudo apt install libapache2-mod-wsgi-py3
 #### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/4%20-%20activar%20wsgi/Captura%20de%20pantalla%20(108).png)
 
-### Luego creamos una conexion con:
-#### x
+### Tras esto, creamos el archivo y le introducimos el codigo python
+#### sudo nano /var/www/html/archivo.py
 #### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/4%20-%20activar%20wsgi/Captura%20de%20pantalla%20(109).png)
 
 
-### Mas adelante instalaremos el mysql server con:
-#### x
+### Establecemos los permisos al archivo que hemos creado anteriormente
+#### sudo chown www-data:www-data /var/www/html/archivo.py
+#### sudo chmod 775 /var/www/html/archivo.py
 #### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/4%20-%20activar%20wsgi/Captura%20de%20pantalla%20(110).png)
 
-#### Finalmente, tras comprobar que todo esta correcto, cerramos el terminal
+### Finalmente, vinculamos el dominio con el directorio entrado en:
 
-### Introducimos:
-#### x
+#### sudo nano /etc/apache2/sites-available/000-default.conf
+### y añadimos esta linea de codigo
+#### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/4%20-%20activar%20wsgi/Captura%20de%20pantalla%20(121).png)
 #### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/4%20-%20activar%20wsgi/Captura%20de%20pantalla%20(121).png)
