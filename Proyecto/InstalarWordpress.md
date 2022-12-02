@@ -47,13 +47,5 @@
 
 ### Finalmente, asignamos el dominio al directorio de instalación de Worpress 
 #### nano /etc/apache2/sites-available/000-default.conf
-### dentro del directorio, pegamos:
-<VirtualHost*:80>
-  ServerName centro.intranet
-  ServerAlias www.centro.intranet
-  ServerAdmin webmaster@localhost
-  DocumentRoot /var/www/wordpress
-  ErrorLog ${APACHE_LOG_DIR}/error.log
-  CustomLog ${APACHE_LOG_DIR}/access.log combined
-</VirtualHost>
+### dentro del directorio, pegamos estas lineas de codigo para acabar:
 #### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/3%20-%20Instalar%20wordpress/Captura%20de%20pantalla%20(107).png)
