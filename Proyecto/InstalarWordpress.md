@@ -48,7 +48,7 @@
 ### Finalmente, asignamos el dominio al directorio de instalación de Worpress 
 #### nano /etc/apache2/sites-available/000-default.conf
 ### dentro del directorio, pegamos:
-#### <VirtualHost*:80>
+<VirtualHost*:80>
   ServerName centro.intranet
   ServerAlias www.centro.intranet
   ServerAdmin webmaster@localhost
