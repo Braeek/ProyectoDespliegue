@@ -20,13 +20,13 @@
 
 ### Descomprimimos el archivo:
 #### tar xzvf latest.tar.gz
-#### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/3%20-%20Instalar%20wordpress/Captura%20de%20pantalla%20(103).png)
+#### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/3%20-%20Instalar%20wordpress/Captura%20de%20pantalla%20(129).png)
 
 ### Moveremos estos archivos a nuestro root de documentos por ahora. Antes de hacerlo, podemos añadir un archivo ficticio .htaccess de modo que esté disponible para que WordPress lo use más adelante.
 #### touch /tmp/wordpress/.htaccess
 #### cp /tmp/wordpress/wp-config-sample.php /tmp/wordpress/wp-config.php
 #### sudo cp -a /tmp/wordpress/. /var/www/wordpress
-#### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/3%20-%20Instalar%20wordpress/Captura%20de%20pantalla%20(104).png)
+#### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/3%20-%20Instalar%20wordpress/Captura%20de%20pantalla%20(130).png)
 
 
 ### Mas adelante actualizamos la propiedad con el comando chown que nos permite modificar la propiedad del archivo
@@ -36,14 +36,14 @@
 #### sudo find /var/www/wordpress/ -type f -exec chmod 640 {} \;
 ### Tras esto, obtenemos los valores seguros del generador de claves secretas de WordPress:
 #### curl -s https://api.wordpress.org/secret-key/1.1/salt/
-#### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/3%20-%20Instalar%20wordpress/Captura%20de%20pantalla%20(105).png)
+#### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/3%20-%20Instalar%20wordpress/Captura%20de%20pantalla%20(131).png)
 
 
 ### A continuación, abra el archivo de configuración de WordPress:
 #### sudo nano /var/www/wordpress/wp-config.php
 ### Estando aqui, copiamos las lineas de codigo que sacamos anteriormente con:
 #### curl -s https://api.wordpress.org/secret-key/1.1/salt/ y las pegamos sustituyendolas por las que ya estan. Ademas, de añadir otros cambios que se muestran en la imagen como "define('FS_METHOD', 'direct');"
-#### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/3%20-%20Instalar%20wordpress/Captura%20de%20pantalla%20(106).png)
+#### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/3%20-%20Instalar%20wordpress/Captura%20de%20pantalla%20(132).png)
 
 ### Finalmente, asignamos el dominio al directorio de instalación de Worpress 
 #### nano /etc/apache2/sites-available/000-default.conf
