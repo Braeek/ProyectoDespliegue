@@ -3,7 +3,7 @@
 ### Ahora activaremos el módulo “wsgi”
 ### Primero hacemos la descarga:
 #### sudo apt install libapache2-mod-wsgi-py3
-#### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/4%20-%20activar%20wsgi/Captura%20de%20pantalla%20(108).png)
+#### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/4%20-%20activar%20wsgi/Captura%20de%20pantalla%20(135).png)
 
 ### Tras esto, creamos el archivo y le introducimos el codigo python
 #### sudo nano /var/www/html/archivo.py
