@@ -56,4 +56,4 @@
   ErrorLog ${APACHE_LOG_DIR}/error.log
   CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
-#### ![Image]()
+#### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/3%20-%20Instalar%20wordpress/Captura%20de%20pantalla%20(107).png)
