@@ -1,17 +1,17 @@
 # Despliegue de aplicaciones web
 ## Modulos
-### Tras haber realizado el primer paso de las instalaciones, procederemos a activar los modulos php y asi acceder a myswl
+### Para comenzar, iniciamos sesión en la cuenta root de MySQ
 ### Introducimos:
-#### x
+#### mysql -u root -p
 #### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/3%20-%20Instalar%20wordpress/Captura%20de%20pantalla%20(100).png)
 
-### Luego creamos una conexion con:
-#### x
+### Creamo la base de datos para WordPress:
+#### CREATE DATABASE wordpress DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 #### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/3%20-%20Instalar%20wordpress/Captura%20de%20pantalla%20(101).png)
 
 
-### Mas adelante instalaremos el mysql server con:
-#### x
+### Crearemos esta cuenta, configuraremos una contraseña y concederemos acceso a la base de datos que hemos creado:
+#### CREATE USER 'wordpressuser'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
 #### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/3%20-%20Instalar%20wordpress/Captura%20de%20pantalla%20(102).png)
 
 #### Finalmente, tras comprobar que todo esta correcto, cerramos el terminal
