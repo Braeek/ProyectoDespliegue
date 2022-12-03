@@ -9,11 +9,8 @@
 ### Parte 3 - Instala y configura wordpress
 #### [Wordpress](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/InstalarWordpress.md)
 
-### Parte 4 - Activar el módulo “wsgi”
+### Parte 4 - Activar el módulo “wsgi” y crear una pequeña aplicación python
 #### [Wsgi](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/pythonWsgi.md)
-
-### Parte 5 - Crea y despliega una pequeña aplicación python
-#### [Python](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/pythonWsgi.md)
 
 ### Parte 6 - Adicionalmente protegeremos el acceso a la aplicación python
 #### [Proteccion](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/protegerAcceso.md)
