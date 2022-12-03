@@ -25,14 +25,14 @@ sudo tar -zxvf phpMyAdmin-5.2.0-all-languages.tar.gz
 $cfg['Servers'][$i]['controlport'] = '';
 $cfg['Servers'][$i]['controluser'] = 'pmauser';
 $cfg['Servers'][$i]['controlpass'] = 'mypmapass';
-#### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/8%20-%202%20serv/Captura%20de%20pantalla%20(126).png)
+#### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/8%20-%202%20serv/Captura%20de%20pantalla%20(137).png)
 
 ### Tras haber guardado cambios, tenemos que relacionar MySQL con phpMyAdmin de la siguiente forma:
 #### sudo mysql < /var/www/phpmyadmin/sql/create_tables.sql -u root -p
 
 ### Acto seguido, creamos la configuracion de servidor para phpMyAdmin en Nginx insertando estas lineas de codigo:
 #### sudo nano /etc/nginx/sites-available/phpmyadmin.conf
-#### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/8%20-%202%20serv/Captura%20de%20pantalla%20(126).png)
+#### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/8%20-%202%20serv/Captura%20de%20pantalla%20(138).png)
 
 
 ### Al guardar cambios, crearemos una carpeta temporal para phpMyAdmin y cambiaremos los permisos
@@ -43,7 +43,7 @@ $cfg['Servers'][$i]['controlpass'] = 'mypmapass';
 #### sudo chown -R www-data:www-data /var/www/phpmyadmin
 #### sudo nano /etc/hosts
 ### Insertamos tambien 127.0.0.1 servidor2.centro.intranet
-#### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/8%20-%202%20serv/Captura%20de%20pantalla%20(126).png)
+#### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/8%20-%202%20serv/Captura%20de%20pantalla%20(139).png)
 
 ### Finalmente, reiniciamos Nginx junto a php
 #### sudo systemctl restart nginx php8.1-fpm
