@@ -1,12 +1,11 @@
 # Despliegue de aplicaciones web
-## Modulos
-### Tras haber realizado el primer paso de las instalaciones, procederemos a activar los modulos php y asi acceder a myswl
-### Introducimos:
-#### x
+## AWSTAT
+### Para empezar, vamos a intarlar el paquete awstast
+#### sudo apt-get install awstats
 #### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/7%20-%20Instalar%20awstat/Captura%20de%20pantalla%20(113).png)
 
-### Luego creamos una conexion con:
-#### x
+### Habilitamos modulo CGI de Apache teniendo asi que reinciar apache para guardar los cambios
+#### sudo a2enmod cgi
 #### ![Image](https://github.com/Braeek/ProyectoDespliegue/blob/main/Proyecto/Proyecto/7%20-%20Instalar%20awstat/Captura%20de%20pantalla%20(114).png)
 
 
